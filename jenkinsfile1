@@ -1,5 +1,5 @@
 node{
-def mavenHome = tool name: "maven3.9.1"
+def mavenHome = tool name: "maven"
 
    stage ('checkoutcode'){
      git 'https://github.com/nani0231/maven-web-application.git' 
